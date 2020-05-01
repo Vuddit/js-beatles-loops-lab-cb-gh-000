@@ -13,6 +13,7 @@ function johnLennonFacts (facts) {
   while (i > 0) {
     //factsExclamation[i] = `${facts[i]}!!!`
     return facts[i]
+    i--
   }
   return facts
 }

@@ -11,6 +11,6 @@ function johnLennonFacts (facts) {
   const i = facts.length
   while (i > 0) {
     facts[i] = `${facts[i]}!!!`
-    --i
+    i--
   }
 }

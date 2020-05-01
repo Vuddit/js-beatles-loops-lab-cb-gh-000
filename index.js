@@ -13,4 +13,5 @@ function johnLennonFacts (facts) {
     facts[i] = `${facts[i]}!!!`
     i--
   }
+  return facts
 }

@@ -12,7 +12,7 @@ function johnLennonFacts (facts) {
   var factsExclamation = []
   while (i > 0) {
     factsExclamation[i] = `${facts[i]}!!!`;
-    --1;
+    i--;
   }
   return factsExclamation
 }

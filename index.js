@@ -17,10 +17,10 @@ function johnLennonFacts (facts) {
   return factsExclamation
 }
 
-function iLoveTheBeatles (number) {
+function iLoveTheBeatles (n) {
   var array = []
   function incrementVariable() {
-    i = number + 1;
+    i = n + 1;
   do {
     array.push("I love the beatles!");
   } while (incrementVariable() < 15)

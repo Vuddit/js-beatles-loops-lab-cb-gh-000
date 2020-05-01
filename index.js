@@ -8,7 +8,7 @@ function theBeatlesPlay (music, instruments) {
 }
 
 function johnLennonFacts (facts) {
-  const i = facts.length
+  var i = facts.length
   var factsExclamation = []
   while (i > 0) {
     factsExclamation[i] = `${facts[i]}!!!`;

@@ -8,12 +8,6 @@ function theBeatlesPlay (music, instruments) {
 }
 
 function johnLennonFacts (facts) {
-  const i = facts.length
-  var factsExclamation = []
-  while (i > 0) {
-    //factsExclamation[i] = `${facts[i]}!!!`
-    return facts[i]
-    const i = i - 1
-  }
+
   return facts
 }

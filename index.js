@@ -20,7 +20,7 @@ function johnLennonFacts (facts) {
 function iLoveTheBeatles (n) {
   var array = []
   function incrementVariable() {
-    i = n - 1;
+    const i = n - 1;
   }
   do {
     array.push("I love the beatles!");

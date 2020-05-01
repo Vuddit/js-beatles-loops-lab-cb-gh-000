@@ -23,7 +23,7 @@ function iLoveTheBeatles (n) {
     const i = n - 1;
   }
   do {
-    array.push("I love the beatles!");
+    array.push("I love the Beatles!");
   } while (incrementVariable() < 15)
   return array
 }

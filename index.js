@@ -20,10 +20,10 @@ function johnLennonFacts (facts) {
 function iLoveTheBeatles (n) {
   var array = []
   function incrementVariable() {
-    const n = n - 1;
+    const n = n + 1;
   }
   do {
     array.push("I love the Beatles!");
-  } while (incrementVariable() > 0)
+  } while (incrementVariable() < 15)
   return array
 }
